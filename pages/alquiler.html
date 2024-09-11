@@ -14,7 +14,13 @@
             <!-- Sidebar -->
             <nav class="col-md-3 col-lg-2 d-md-block sidebar collapse">
                 <div class="position-sticky">
+                    <img class="logoalugo" src="../img/logoalugo.png" alt="logoalugo">
                     <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link" href="">
+                                <i class="bi bi-speedometer2"></i> Panel de Control
+                            </a>
+                        </li>
                         <li class="nav-item">
                             <a class="nav-link" href="./producto.html">
                                 <i class="bi bi-box"></i> Productos
@@ -31,8 +37,23 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#panel-control">
-                                <i class="bi bi-speedometer2"></i> Panel de Control
+                            <a class="nav-link" href="">
+                                <i class="bi bi-file-lock"></i> Seguros
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="">
+                                <i class="bi bi-calendar"></i> Calendario
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="">
+                                <i class="bi bi-gear"></i> Configuración
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="">
+                                <i class="bi bi-three-dots"></i> Más
                             </a>
                         </li>
                     </ul>
@@ -42,7 +63,7 @@
             <!-- Main content -->
             <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4 main-content">
                 <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-                    <h1 class="h2">Hola Usuario 👋</h1>
+                    <h1 class="h2">Hola Coque 👋</h1>
                 </div>
 
                 <!-- Alquiler view -->
@@ -62,20 +83,136 @@
                                     <th>Usuario</th>
                                     <th>Fecha inicio</th>
                                     <th>Fecha fin</th>
+                                    <th>Activo</th>
                                     <th>Comentarios</th>
                                     <th>Acciones</th>
+                                    <th>Más</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td>Producto A</td>
-                                    <td>Juan Pérez</td>
-                                    <td>2024-09-05</td>
-                                    <td>2024-09-10</td>
+                                    <td>Motosierra</td>
+                                    <td>Juan Gonzales</td>
+                                    <td>2023-09-05</td>
+                                    <td>2023-09-10</td>
+                                    <td>No</td>
                                     <td>Entrega en domicilio</td>
                                     <td>
                                         <button class="btn btn-sm btn-outline-secondary">
                                             <i class="bi bi-pencil"></i> Editar
+                                        </button>
+                                    </td>
+                                    <td>
+                                        <button class="btn btn-sm">
+                                            <i class="bi bi-three-dots-vertical"></i> 
+                                        </button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Martillo</td>
+                                    <td>José Pérez</td>
+                                    <td>2024-02-05</td>
+                                    <td>2024-02-09</td>
+                                    <td>No</td>
+                                    <td>Retiro en Local</td>
+                                    <td>
+                                        <button class="btn btn-sm btn-outline-secondary">
+                                            <i class="bi bi-pencil"></i> Editar
+                                        </button>
+                                    </td>
+                                    <td>
+                                        <button class="btn btn-sm">
+                                            <i class="bi bi-three-dots-vertical"></i> 
+                                        </button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Taladro</td>
+                                    <td>Pedro Martinez</td>
+                                    <td>2024-05-05</td>
+                                    <td>2024-05-10</td>
+                                    <td>No</td>
+                                    <td>Entrega en domicilio</td>
+                                    <td>
+                                        <button class="btn btn-sm btn-outline-secondary">
+                                            <i class="bi bi-pencil"></i> Editar
+                                        </button>
+                                    </td>
+                                    <td>
+                                        <button class="btn btn-sm">
+                                            <i class="bi bi-three-dots-vertical"></i> 
+                                        </button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Volquete</td>
+                                    <td>Juan Diez</td>
+                                    <td>2024-09-02</td>
+                                    <td>2024-09-06</td>
+                                    <td>No</td>
+                                    <td>Entrega en domicilio</td>
+                                    <td>
+                                        <button class="btn btn-sm btn-outline-secondary">
+                                            <i class="bi bi-pencil"></i> Editar
+                                        </button>
+                                    </td>
+                                    <td>
+                                        <button class="btn btn-sm">
+                                            <i class="bi bi-three-dots-vertical"></i> 
+                                        </button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Amoladora</td>
+                                    <td>María Pérez</td>
+                                    <td>2024-09-05</td>
+                                    <td>2024-09-10</td>
+                                    <td>No</td>
+                                    <td>Retira en Local</td>
+                                    <td>
+                                        <button class="btn btn-sm btn-outline-secondary">
+                                            <i class="bi bi-pencil"></i> Editar
+                                        </button>
+                                    </td>
+                                    <td>
+                                        <button class="btn btn-sm">
+                                            <i class="bi bi-three-dots-vertical"></i> 
+                                        </button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Hoyadora</td>
+                                    <td>Martina Rodriguez</td>
+                                    <td>2024-09-15</td>
+                                    <td>2024-09-19</td>
+                                    <td>No</td>
+                                    <td>Entrega en domicilio</td>
+                                    <td>
+                                        <button class="btn btn-sm btn-outline-secondary">
+                                            <i class="bi bi-pencil"></i> Editar
+                                        </button>
+                                    </td>
+                                    <td>
+                                        <button class="btn btn-sm">
+                                            <i class="bi bi-three-dots-vertical"></i> 
+                                        </button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Volquete</td>
+                                    <td>Juana Pérez</td>
+                                    <td>2024-10-05</td>
+                                    <td>2024-10-07</td>
+                                    <td>No</td>
+                                    <td>Retira en Local</td>
+                                    <td>
+                                        <button class="btn btn-sm btn-outline-secondary">
+                                            <i class="bi bi-pencil"></i> Editar
+                                        </button>
+                                    </td>
+                                    <td>
+                                        <button class="btn btn-sm">
+                                            <i class="bi bi-three-dots-vertical"></i> 
                                         </button>
                                     </td>
                                 </tr>
